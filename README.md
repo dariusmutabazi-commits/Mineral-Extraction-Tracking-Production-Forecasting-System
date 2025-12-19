@@ -26,15 +26,14 @@ A centralized PL/SQL system is needed to improve data quality and support produc
 
 ## Quick Start Instructions
 1. I created Oracle user & roles .  
-2. I ran **`database/schema.sql`** to create all tables and sequences.  
-3. I ran **`database/packages.sql`** to install PL/SQL logic.  
-4. I ran **`database/triggers.sql`** to activate validation and audit triggers.  
+2. I created **`database/schema.sql`** to create all tables and sequences.  
+3. I created **`database/packages.sql`** to install PL/SQL logic.  
+4. I created **`database/triggers.sql`** to activate validation and audit triggers.  
 5. I inserted samples data using **`database/data_samples.sql`**.  
 6. I ran reporting queries from **`queries/analytics_queries.sql`**.  
 7. Open **`presentation/`** to access project PowerPoint slides.
 
-## Documentation Links
-- **Project Description:** `/docs/project_description.pdf`  
+## Documentation Links  
 - **ERD Diagram:** Located in Project Description (Phase III)  
 - **BPMN Workflow:** Phase II section in the document  
 - **BI Requirements:** Phase IV section  
